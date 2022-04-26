@@ -1,0 +1,42 @@
+.login-wrapper {
+    margin: 1em;
+}
+
+div.form-wrapper > form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+form > input {
+    flex: 5;
+    padding: 0.75em;
+    margin: 0.5em;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+form > button[type=submit] {
+    margin: 0.5em;
+    padding: 0.75em;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(55, 158, 55);
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+form > button[type=submit]:hover {
+    background-color: rgb(22, 121, 31);
+    color: white;
+}
+
+form > label {
+    margin: 0.5em;
+}
+/* form > input {
+    
+} */
